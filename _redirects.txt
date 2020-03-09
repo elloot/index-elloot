@@ -1,2 +1,2 @@
 # Redirect domain aliases to primary domain
-https://elloot.se/* https://elloot.com/
+https://elloot.se/* https://elloot.netlify.com/
