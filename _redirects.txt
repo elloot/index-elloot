@@ -1,2 +1,1 @@
-# Redirect domain aliases to primary domain
-https://elloot.se/* https://elloot.netlify.com/
+elloot.se elloot.com 301
