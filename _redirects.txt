@@ -1,1 +1,1 @@
-elloot.se elloot.com 301
+https://elloot.se/ https://elloot.com/ 301
