@@ -16,3 +16,15 @@ span {
     transform: translateX(100px) rotate(90deg);
     display: inline-block;
 }
+
+.big-title {
+    font-size: 150pt;
+    color: red;
+}
+
+.big-text {
+    font-size: 50pt;
+    color: red;
+}
+
+@import "./breakpoints";
