@@ -1,1 +1,22 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  font-size: 100pt;
+  color: red;
+}
+
+span {
+  font-size: 150pt;
+  color: black;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  -webkit-transform: translateX(100px) rotate(90deg);
+          transform: translateX(100px) rotate(90deg);
+  display: inline-block;
+}
+/*# sourceMappingURL=main.css.map */
