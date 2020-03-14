@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 100pt;
+    color: red;
+}
+
+span {
+    font-size: 150pt;
+    color: black;
+    transition: all 3s;
+    transform: translateX(100px) rotate(90deg);
+    display: inline-block;
+}
+
+.big-title {
+    font-size: 150pt;
+    color: red;
+}
+
+.big-text {
+    font-size: 50pt;
+    color: red;
+}
+
+@import "./breakpoints";
