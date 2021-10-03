@@ -5,128 +5,16 @@
           box-sizing: border-box;
 }
 
-h1 {
-  font-size: 100pt;
-  color: red;
-}
-
-span {
-  font-size: 150pt;
-  color: black;
-  -webkit-transition: all 3s;
-  transition: all 3s;
-  -webkit-transform: translateX(100px) rotate(90deg);
-          transform: translateX(100px) rotate(90deg);
-  display: inline-block;
-}
-
-.big-title {
-  font-size: 150pt;
-  color: red;
-}
-
-.big-text {
-  font-size: 50pt;
-  color: red;
-}
-
-@media only screen and (min-width: 576px) {
-  .container {
-    max-width: 673px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .navbar .navbar__social-links {
-    display: block;
-  }
-  .card__image-wrapper {
-    max-width: 350px !important;
-  }
-}
-
-/*THIS WILL BE THE DESKTOP BREAKPOINT*/
-@media only screen and (min-width: 992px) {
-  .container {
-    width: 96%;
-    max-width: 988px;
-  }
-  .about-me-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .about-me-wrapper .card__image-container {
-    width: inherit;
-  }
-  .about-me-wrapper .text-title-container {
-    width: 300px;
-    margin: 0 auto;
-  }
-  .footer-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .footer-wrapper .card-wrapper {
-    width: calc(50% - 12px);
-  }
-  .card-wrapper {
-    padding: 36px;
-  }
-  .card-wrapper .card__list-skills {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin-top: 24px;
-    height: inherit;
-  }
-  .card-wrapper .card__list-skills li:first-child {
-    margin-top: 0;
-  }
-  .card-wrapper .card__list-skills .card__skill-wrapper {
-    width: 270px;
-  }
-  .card-wrapper .card__list-skills .card__skill-wrapper:not(:last-child) {
-    margin-bottom: 0;
-  }
-  .card-wrapper .card__list-skills .card__skill-wrapper .card__skill-title {
-    font-weight: bold;
-    cursor: auto;
-  }
-  .card-wrapper .card__list-skills .card__skill-wrapper .card__skill-title i {
-    display: none;
-  }
-  .card-wrapper .card__list-skills .card__skill-wrapper .card__skill-info {
-    margin: 0;
-    display: block;
-    max-height: 900px;
-  }
-  .card-wrapper .card__list-contact {
-    height: 80%;
-  }
-  .card-wrapper .card__list-contact li {
-    margin-top: 0;
-  }
-  .card-wrapper .card__list-contact li:first-child {
-    margin-top: 0;
-  }
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=main.css.map */
